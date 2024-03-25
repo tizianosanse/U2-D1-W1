@@ -273,6 +273,22 @@ footer a {
   }
 }
 @media screen and (min-width: 1200px) {
+  .div-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  nav ul {
+    box-sizing: border-box;
+    justify-content: end;
+    position: absolute;
+    top: 59px;
+    right: 100px;
+  }
+  .title {
+    position: absolute;
+    top: 59px;
+    right: 500px;
+  }
   .container td {
     width: 250px;
   }
