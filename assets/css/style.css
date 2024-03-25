@@ -311,6 +311,9 @@ footer a {
   section {
     width: 50%;
   }
+  input {
+    width: 350px;
+  }
 }
 @media print {
   header {
