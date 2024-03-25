@@ -242,6 +242,9 @@ footer a {
   .cont-novita {
     padding-top: 1vh;
   }
+  .video {
+    height: 170px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -274,15 +277,20 @@ footer a {
     display: flex;
     flex-direction: row;
   }
-  input {
-    width: 300px;
+  .video {
+    width: 50%;
+    height: 500px;
   }
+
   .container-artcl {
     display: flex;
     flex-direction: row;
   }
   .article {
     width: 40%;
+  }
+  section {
+    width: 50%;
   }
 }
 @media print {
